@@ -1,0 +1,17 @@
+# General
+# ------------------------------------------------------------------------------
+USE_DOCKER=yes
+IPYTHONDIR=/app/.ipython
+# Redis
+# ------------------------------------------------------------------------------
+REDIS_URL=redis://redis:6379/0
+
+# Celery
+# ------------------------------------------------------------------------------
+
+# Flower
+CELERY_FLOWER_USER=RqMbXqsadXKlBDgnfaQgKDxkIqWHVuTi
+CELERY_FLOWER_PASSWORD=lbh8aqYxoIKD741uHV1RHDRlhKNOkilY7im7LM8hrOnC4tg7WWuQwCyXQLOOAegh
+
+# OPEN WEATHER MAP
+OPENWEATHERMAP_API_KEY=439d4b804bc8187953eb36d2a8c26a02

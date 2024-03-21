@@ -1,0 +1,10 @@
+{% load render_bundle from webpack_loader %}
+<html>
+<head>
+  {% render_bundle 'vendors' 'css' %}
+  {% render_bundle 'project' 'css' %}
+
+</head>
+{% block content %}
+{% endblock content %}
+</html>

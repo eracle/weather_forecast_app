@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% load render_bundle from webpack_loader %}
+{% block content %}
+<body>
+  <div id="reactWrapper"></div>
+  {% render_bundle 'vendors' 'js' %}
+  {% render_bundle 'project' 'js' %}
+</body>
+{% endblock content %}
+
