@@ -100,4 +100,4 @@ A comprehensive test suite covers models, views, and integration points, ensurin
 
 - **README.md:** Offers an overview of project setup, including starting the development environment, running tests, and deploying the project.
 
-
+ 
